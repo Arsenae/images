@@ -1,0 +1,67 @@
+/* IMAGES */
+
+html {
+	background-color: white;
+}
+
+body {
+	font-family: 'Space Mono', monospace;
+	font-size: 16px;
+	font-weight: 400;	
+	margin: 0;
+	padding: 0.5em;
+	color: white;
+	background-color: black;
+	min-height: 100vh;
+	line-height: 1.2;
+}
+
+header {
+	padding: 0.5em;
+}
+
+header img {
+	width: 100%;
+}
+
+footer {
+	padding: 0.5em;
+	text-align: right;
+}
+
+figure {
+	margin: 0;
+	padding: 0.5em;
+	width: calc(25% - 1em);
+}
+
+h1 {
+	position: fixed;
+    top: 0.5em;
+    left: -0.5em;
+    text-align: center;
+    font-size: 5em;
+    z-index: 0;
+    mix-blend-mode: hard-light;
+    color: red;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    transform: rotate(-45deg);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: 40em;
+	margin-bottom: 1em;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
